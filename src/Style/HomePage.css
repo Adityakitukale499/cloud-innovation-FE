@@ -1,0 +1,12 @@
+.home-container{
+    display: flex;
+    gap: 10px;
+}
+
+.SideBar{
+    padding: 20px;
+}
+
+.checked{
+    color: yellow;
+}

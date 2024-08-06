@@ -1,0 +1,49 @@
+
+  
+  .card-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 20px;
+    padding-top: 120px;
+  }
+  .login-container{
+    height: 100vh;
+  } 
+  
+  
+  .login-card {
+    min-width: 80vw;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .form-group {
+    width: 100%;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button,
+  input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(227, 227, 227);
+    font-size: 18px;
+  }
+  
+  .submit {
+    margin-top: 10px;
+    background-color: #001f3f;
+    color: #fff;
+    font-weight: 500;
+  }
+  
