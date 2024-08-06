@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import axios from "axios";
 
 const MovieDetail = () => {
-  const BASE_URL = `http://localhost:8000`;
+  const BASE_URL = `https://cloud-innovation-be.onrender.com`;
 
   const { id } = useParams();
   const [movie, setMovie] = useState(null);
